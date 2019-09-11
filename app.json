@@ -1,0 +1,18 @@
+{
+  "pages": [
+    
+    "pages/list/list",
+    "pages/index/index",
+    "pages/detail/detail"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#498ef0",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "野狼disco",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json"
+}

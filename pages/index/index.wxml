@@ -1,0 +1,19 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <image
+   wx:if="{{userInfo.avatarUrl}}" 
+   class="avator_img" 
+   src="{{userInfo.avatarUrl}}"></image>
+  <button 
+  class="btn"
+  wx:else
+  open-type="getUserInfo" 
+  bindgetuserinfo="handelGetUserInfo"
+  >
+  获取用户信息</button>
+  <text class="text_hello">Hello!{{userInfo.nickName}}</text>
+  <view class="goStudy" catchtap="goList">
+    <text>开启新的世界</text>
+  </view>
+</view>
+

@@ -1,0 +1,19 @@
+<!--pages/template/templateList.wxml-->
+
+<template name="listItem">
+  <view class="temContainer">
+    <view class="avatar">
+      <image src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <text class="company">{{title}}</text>
+    <image class="big_img" src="{{detail_img}}"></image>
+    <text class="content">{{detail_content}}</text>
+    <view class="content_img">
+    <image src="/images/icon/none-star.png"></image>
+    <text>{{love_count}}</text>
+    <image src="/images/icon/view.png"></image>
+    <text>{{attention_count}}</text>
+    </view>
+  </view>
+</template>
