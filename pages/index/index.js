@@ -26,8 +26,8 @@ Page({
   },
   goList(){
     // 去list页面
-    wx.redirectTo({
-      url:'/pages/list/list'
+    wx.switchTab({
+      url: '/pages/list/list',
     })
   },
   handelGetUserInfo(info){
