@@ -1,5 +1,5 @@
 let list_data = [
-  
+
   {
 
     date: 'may 19 2018',
@@ -16,14 +16,15 @@ let list_data = [
     attention_count: 66,
     detail: '钢铁战队。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46100.mp3', // 音乐链接
-      title: 'IF-Ken Arai',   // 音乐标题
+      // dataUrl: 'http://up.mcyt.net/down/46100.mp3', // 音乐链接
+      dataUrl: 'https://m7.music.126.net/20190912095023/f5bfc8c136e2ef7866282a4479eab19e/ymusic/0558/565a/070b/222d27ebb1a01ac1d8e20a05b4b75e3d.mp3', // 音乐链接
+      title: '野狼disco 宝石',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 0
   },
   {
-    
+
     date: 'may 19 2018',
     title: '尚硅谷',
     detail_img: '/images/detail/carousel/01.jpg',
@@ -148,4 +149,4 @@ let list_data = [
   },
 ];
 
-module.exports = {list_data};
+module.exports = { list_data };
